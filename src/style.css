@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "waffle";
+  src: url(./Waffle.ttf);
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+  .menu-div .menu-item .menu-image {
+    width: 100%;
+  }
+  #content h1 {
+    font-size: 50px;
+  }
+
+  .menu-div {
+    width: 100%;
+  }
+
+  .menu-item {
+    width: 100%;
+  }
+  nav ul li {
+    font-size: 32px;
+  }
+
+  .home-images {
+    flex-direction: column;
+  }
+}
+
+* {
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 48px;
+  padding: 16px;
+  font-weight: bold;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+nav {
+  background-color: black;
+}
+
+ul li:hover {
+  background-color: white;
+  transform: scale(0.9);
+
+  color: black;
+}
+body {
+  background-color: antiquewhite;
+  padding: 48px;
+}
+
+#content {
+  padding: 64px;
+  text-align: center;
+  background-color: white;
+}
+h1 {
+  font-family: "waffle";
+  font-size: 128px;
+  padding-bottom: 24px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.home-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-div {
+  font-size: 20px;
+  width: 450px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.left-div:hover {
+  transform: scale(1.05);
+}
+
+.left-div p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.menu-item {
+  width: 450px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-image {
+  width: 500px;
+  height: auto;
+}
+
+.menuDiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 256px;
+  row-gap: 64px;
+  flex-wrap: wrap;
+}
+
+.menu-item-header {
+  font-family: "waffle";
+  font-size: 48px;
+}
+
+.menu-item p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contactDiv h1 {
+  font-size: 48px;
+}
